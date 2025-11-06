@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Research Hyper Linkage chip research -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_AM_HyperLinkageChip</defName>
+    <label>Hyper-linkage chip</label>
+    <description>Enables fabrication of Hyper-linkage chips.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_NanostructuringChip</li>
+    </prerequisites>
+		<tab>AM_AlphaMechs</tab>
+		<researchViewX>0.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+	<!-- Research Stellar Processing Chip research -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_AM_StellarProcessingChip</defName>
+    <label>Stellar processing chip</label>
+    <description>Enables fabrication of Stellar processing chips.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_AM_HyperLinkageChip</li>
+    </prerequisites>
+		<tab>AM_AlphaMechs</tab>
+		<researchViewX>1.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+	<!-- Research Quantum Matrix Chip research -->
+	<ResearchProjectDef>
+    <defName>chrisb_Research_AM_QuantumMatrixChip</defName>
+    <label>Quantim matrix chip</label>
+    <description>Enables fabrication of Quantim matrix chips.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_AM_StellarProcessingChip</li>
+    </prerequisites>
+		<tab>AM_AlphaMechs</tab>
+		<researchViewX>2.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

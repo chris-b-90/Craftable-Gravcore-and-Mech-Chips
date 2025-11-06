@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- custom AncientSealedCrate with Mechhive Studiable item - abstract parent in case I add things later -->
+    <ThingDef Name="chrisb_AncientSealedCrateBase" Abstract="True" ParentName="CrateBase">
+    <defName>chrisb_SealedCrate</defName>
+    <label>sealed crate</label>
+    <description>A small sealed crate laying beside the Cerebrex Core. There is likely to be something incredibly advanced inside.</description>
+    <graphicData>
+      <texPath>Things/Building/Ancient/OpenableContainers/SealedCrate_Close</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <size>(1, 1)</size>
+    <fillPercent>0.2</fillPercent>
+		<useHitPoints>False</useHitPoints>
+    <rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_EmptyStateGraphic">
+        <graphicData>
+          <texPath>Things/Building/Ancient/OpenableContainers/SealedCrate_Open</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(239,133,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- The actual crate which spawns in the mechhive just below the Cerebrex Core -->
+  <ThingDef ParentName="chrisb_AncientSealedCrateBase">
+    <defName>chrisb_MechhiveAncientSealedCrate</defName>
+    <comps>
+      <li Class="CompProperties_LootSpawn">
+        <contents>chrisb_Reward_MechhiveAncientSealedCrate</contents>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

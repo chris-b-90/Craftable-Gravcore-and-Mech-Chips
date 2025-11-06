@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Research Signal Chip recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_SignalChip</defName>
+    <label>Signal chip</label>
+    <description>Enables fabrication of signal chips.</description>
+    <baseCost>7000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_MechhiveFabrication</li>
+    </prerequisites>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Research Powerfocus Chip recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_PowerfocusChip</defName>
+    <label>Powerfocus chip</label>
+    <description>Enables fabrication of powerfocus chips.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_SignalChip</li>
+    </prerequisites>
+		<researchViewX>20.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Research Nanostructuring Chip recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_NanostructuringChip</defName>
+    <label>Nanostructuring chip</label>
+    <description>Enables fabrication of nanostructuring chips.</description>
+    <baseCost>9000</baseCost>
+    <techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>chrisb_Research_PowerfocusChip</li>
+    </prerequisites>
+		<researchViewX>21.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

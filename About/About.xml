@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Craftable Gravcore and Mech Chips</name>
+  <author>chrisb</author>
+  <supportedVersions>
+	<li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+	<li>
+	  <packageId>Ludeon.RimWorld.Odyssey</packageId>
+	  <displayName>Odyssey</displayName>
+	  <steamWorkshopUrl>https://store.steampowered.com/app/3022790/RimWorld__Odyssey/</steamWorkshopUrl>
+	</li>
+  </modDependencies>
+  <loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>sarg.alphamechs</li>
+	</loadAfter>
+  <modIconPath IgnoreIfNoMatchingField="True"></modIconPath>
+  <packageId>chrisb.craftablegravcoremechhips</packageId>
+  <description>A very lightweight, XML-only mod that adds research, a study item (rewarded from Odyssey's final quest), and recipes for gravcores and mechanoid chips which are craftable at the Fabrication bench.
+  </description>
+</ModMetaData>

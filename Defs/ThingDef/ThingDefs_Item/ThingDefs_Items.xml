@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>chrisb_mechhivefabrication_blueprint</defName>
+		<label>Mechhive blueprint</label>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+		<useHitPoints>false</useHitPoints>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <isTechHediff>true</isTechHediff>
+    <description>A blueprint found at the Mechanoid's hive, beside the Cerebrex Core. There's something fragile, but... otherworldly about it.\n\nA colonist can study this blueprint to unlock secret Mechanoid fabrication techniques.\nIt will be destroyed upon use.</description>
+    <graphicData>
+      <texPath>Items/chrisb_mechhive_blueprint</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_CompAnalyzableUnlockResearch">
+        <analysisID>10864014</analysisID>
+
+        <!-- Analyzable -->
+
+        <analysisDurationHours>0.5</analysisDurationHours>
+        <destroyedOnAnalyzed>true</destroyedOnAnalyzed>
+        <completedLetterLabel>Mechhive blueprint studied: {RESEARCH} unlocked</completedLetterLabel>
+        <completedLetter>By studying the mechhive blueprint, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+        <completedLetterDef>PositiveEvent</completedLetterDef>
+
+        <!-- Interactable -->
+
+        <activateTexPath>UI/Icons/Study</activateTexPath>
+
+        <activateLabelString>Analyze...</activateLabelString>
+        <activateDescString>Analyze the mechhive blueprint.</activateDescString>
+        <jobString>Analyze mechhive blueprint</jobString>
+        <guiLabelString>Choose who should analyze this</guiLabelString>
+        <inspectString>Can be analyzed by a colonist.</inspectString>
+
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+        </targetingParameters>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

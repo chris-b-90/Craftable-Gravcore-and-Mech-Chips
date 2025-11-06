@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PrefabDef[defName="CerebrexCore"]/things</xpath>
+		<value>
+			<chrisb_MechhiveAncientSealedCrate>
+				<positions>
+					<li>(23, 0, 15)</li>
+				</positions>
+			</chrisb_MechhiveAncientSealedCrate>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Schematic"]/comps/li/doers/li[@Class="BookOutcomeProperties_GainResearch"]/exclude</xpath>
+    <value>
+      <chrisb_Research_MechhiveFabrication />
+			<chrisb_Research_SignalChip MayRequire="Ludeon.RimWorld.Biotech"/>
+			<chrisb_Research_PowerfocusChip MayRequire="Ludeon.RimWorld.Biotech"/>
+			<chrisb_Research_NanostructuringChip MayRequire="Ludeon.RimWorld.Biotech"/>
+    </value>
+  </Operation>
+</Patch>

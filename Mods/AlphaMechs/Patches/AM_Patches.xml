@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Schematic"]/comps/li/doers/li[@Class="BookOutcomeProperties_GainResearch"]/exclude</xpath>
+    <value>
+			<chrisb_Research_AM_HyperLinkageChip />
+			<chrisb_Research_AM_StellarProcessingChip />
+			<chrisb_Research_AM_QuantumMatrixChip />
+    </value>
+  </Operation>
+</Patch>

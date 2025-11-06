@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Signal Chip -->
+<RecipeDef>
+  <defName>chrisb_Craft_SignalChip</defName>
+  <label>make signal chip</label>
+  <description>Make a Signal Chip.</description>
+	<displayPriority>532</displayPriority>
+  <workAmount>28000</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+  <workSkill>Crafting</workSkill>
+  <recipeUsers>
+    <li>FabricationBench</li>
+  </recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>130</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentSpacer</li>
+        </thingDefs>
+      </filter>
+      <count>12</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Gold</li>
+        </thingDefs>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+	<products>
+		<li>SignalChip</li>
+	</products>
+  <skillRequirements>
+    <Crafting>12</Crafting>
+  </skillRequirements>
+  <researchPrerequisite>chrisb_Research_SignalChip</researchPrerequisite>
+</RecipeDef>
+
+<!-- Powerfocus Chip -->
+<RecipeDef>
+  <defName>chrisb_Craft_PowerfocusChip</defName>
+  <label>make powerfocus chip</label>
+  <description>Make a Powerfocus Chip.</description>
+	<displayPriority>533</displayPriority>
+  <workAmount>32000</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+  <workSkill>Crafting</workSkill>
+  <recipeUsers>
+    <li>FabricationBench</li>
+  </recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>140</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentSpacer</li>
+        </thingDefs>
+      </filter>
+      <count>14</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Uranium</li>
+        </thingDefs>
+      </filter>
+      <count>18</count>
+    </li>
+  </ingredients>
+  <products>
+    <li>PowerfocusChip</li>
+  </products>
+  <skillRequirements>
+    <Crafting>12</Crafting>
+  </skillRequirements>
+  <researchPrerequisite>chrisb_Research_PowerfocusChip</researchPrerequisite>
+</RecipeDef>
+
+<!-- Nanostructuring Chip -->
+<RecipeDef>
+  <defName>chrisb_Craft_NanostructuringChip</defName>
+  <label>make nanostructuring chip</label>
+  <description>Make a Nanostructuring Chip.</description>
+	<displayPriority>534</displayPriority>
+  <workAmount>36000</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+  <workSkill>Crafting</workSkill>
+  <recipeUsers>
+    <li>FabricationBench</li>
+  </recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>150</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentSpacer</li>
+        </thingDefs>
+      </filter>
+      <count>16</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Gold</li>
+        </thingDefs>
+      </filter>
+      <count>3</count>
+    </li>
+		<li>
+      <filter>
+        <thingDefs>
+          <li>Uranium</li>
+        </thingDefs>
+      </filter>
+      <count>24</count>
+    </li>
+  </ingredients>
+  <products>
+    <li>NanostructuringChip</li>
+  </products>
+  <skillRequirements>
+    <Crafting>12</Crafting>
+  </skillRequirements>
+  <researchPrerequisite>chrisb_Research_NanostructuringChip</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

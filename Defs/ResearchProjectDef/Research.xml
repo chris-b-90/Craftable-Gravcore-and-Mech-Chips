@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Research Gravcore recipe -->
+  <ResearchProjectDef>
+    <defName>chrisb_Research_MechhiveFabrication</defName>
+    <label>Mechhive fabrication</label>
+    <description>Unlocks guarded secrets of the Mechhive's fabrication techniques.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>AdvancedGravtech</li>
+    </prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<requiredAnalyzed>
+      <li>chrisb_mechhivefabrication_blueprint</li>
+    </requiredAnalyzed>
+		<researchViewX>18.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Alpha Mechs' Hyper Linkage Chip -->
+	<RecipeDef>
+		<defName>chrisb_Craft_AM_HyperLinkageChip</defName>
+		<label>make hyper-linkage chip</label>
+		<description>Make a Hyper-linkage Chip.</description>
+		<displayPriority>535</displayPriority>
+		<workAmount>44000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>175</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<li>AM_HyperLinkageChip</li>
+		</products>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_AM_HyperLinkageChip</researchPrerequisite>
+	</RecipeDef>
+	
+<!-- Alpha Mechs' Stellar Processing Chip -->
+	<RecipeDef>
+		<defName>chrisb_Craft_AM_StellarProcessingChip</defName>
+		<label>make stellar processing chip</label>
+		<description>Make a Stellar Processing Chip.</description>
+		<displayPriority>536</displayPriority>
+		<workAmount>48000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>4.5</count>
+			</li>
+			<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>36</count>
+				</li>
+		</ingredients>
+		<products>
+			<li>AM_StellarProcessingChip</li>
+		</products>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>chrisb_Research_AM_StellarProcessingChip</researchPrerequisite>
+	</RecipeDef>
+
+<!-- Alpha Mechs' Quantum Matrix Chip -->
+<RecipeDef>
+  <defName>chrisb_Craft_AM_QuantumMatrixChip</defName>
+  <label>make quantum matrix chip</label>
+  <description>Make a Quantum Matrix Chip.</description>
+	<displayPriority>537</displayPriority>
+  <workAmount>52000</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+  <workSkill>Crafting</workSkill>
+  <recipeUsers>
+    <li>FabricationBench</li>
+  </recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>225</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentSpacer</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Gold</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+	<li>
+      <filter>
+        <thingDefs>
+          <li>Uranium</li>
+        </thingDefs>
+      </filter>
+      <count>42</count>
+    </li>
+  </ingredients>
+  <products>
+    <li>AM_QuantumMatrixChip</li>
+  </products>
+  <skillRequirements>
+    <Crafting>14</Crafting>
+  </skillRequirements>
+  <researchPrerequisite>chrisb_Research_AM_QuantumMatrixChip</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

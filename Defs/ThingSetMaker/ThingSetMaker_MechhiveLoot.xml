@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- defines the studiable blueprint as loot -->
+  <ThingSetMakerDef>
+    <defName>chrisb_Reward_MechhiveAncientSealedCrate</defName>
+    <root Class="ThingSetMaker_StackCount">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>chrisb_mechhivefabrication_blueprint</li>
+          </thingDefs>
+        </filter>
+      <countRange>1~1</countRange>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+
+</Defs>
